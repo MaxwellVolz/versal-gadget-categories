@@ -1,0 +1,24 @@
+{
+  "name": "categories",
+  "version": "0.0.8",
+  "title": "Categories",
+  "description": "Sorting application with persistant word bank",
+  "author": "Max Volz",
+  "launcher": "iframe",
+  "defaultConfig": {
+      "chosenColor" : "#00cc00",
+      "chosenWord" : "rip",
+	  "catHeadx": "Categories - click to change",
+	  	"word1x": "run",
+		"word2x": "jump",
+		"word3x": "swim",
+		"word4x": "man",
+		"word5x": "woman",
+		"word6x": "child",
+		"catName1x": "Verb",
+		"catName2x": "Noun"
+  },
+  "defaultUserState": {
+      "isBold" : false
+  }
+}

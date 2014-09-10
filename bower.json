@@ -1,0 +1,19 @@
+{
+  "name": "Categories",
+  "version": "0.1.0",
+  "homepage": "",
+  "authors": [
+    "maxwellvolz@gmail.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "versal-gadget-api": "0.0.1"
+  }
+}

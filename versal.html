@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <title>A Category-based Learning Utility</title>
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="bower_components/versal-gadget-api/versal-gadget-theme.css">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="bower_components/versal-gadget-api/versal-player-api.js"></script>
+
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/versal-gadget-api/versal-challenges-api.js"></script>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+</head>
+<body>
+
+
+
+
+<div class="categoriesContainer">
+	<div id="catHeader">
+		<textarea>Sort the items into categories.</textarea>
+	</div>
+	<div id="draggable" class="drag ui-widget-content cat1">
+		<div class="catBtn">1</div>
+		<textarea>Run</textarea>
+	</div>
+	<div id="draggable1" class="drag ui-widget-content cat1">
+		<div class="catBtn">1</div>
+		<textarea>Jump</textarea>
+	</div>
+	<div id="draggable2" class="drag ui-widget-content cat1">
+		<div class="catBtn">1</div>
+		<textarea>Fly</textarea>
+	</div>
+	<div id="draggable3" class="drag ui-widget-content cat2">
+		<div class="catBtn">2</div>
+		<textarea>Man</textarea>
+	</div>
+	<div id="draggable4" class="drag ui-widget-content cat2">
+		<div class="catBtn">2</div>
+		<textarea>Woman</textarea>
+	</div>
+	<div id="draggable5" class="drag ui-widget-content cat2">
+		<div class="catBtn">2</div>
+		<textarea>Child</textarea>
+	</div>
+	<div id="droppable" class="drag ui-widget-header">
+		<div class="catBtn2">1</div>
+		<textarea class="catText">Verbs</textarea>
+		<div id="breaker"></div>
+		<div id="snap1cat1" class="snapper"></div>
+		<div id="snap2cat1" class="snapper"></div>
+		<div id="snap3cat1" class="snapper"></div>
+	</div>
+	<div id="droppable2" class="drag ui-widget-header">
+		<div class="catBtn2">2</div>
+		<textarea class="catText">Nouns</textarea>
+		<div id="breaker"></div>
+		<div id="snap1cat2" class="snapper"></div>
+		<div id="snap2cat2" class="snapper"></div>
+		<div id="snap3cat2" class="snapper"></div>
+	</div>
+	
+</div>
+<img src="assets/tutorial1.png"></img>
+
+
+<script src="main.js"></script>
+</body>
+</html>

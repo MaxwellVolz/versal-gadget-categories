@@ -1,0 +1,146 @@
+body
+{
+	background-color: #3D9499;
+	color: #7c7975;
+	margin: 0;
+	width:722px;
+	height:500px;
+}
+
+textarea{
+	resize: none;
+	margin-top:16px;
+	height:20px;
+	text-align:center;
+	background-color:white;
+	border:none;
+}
+}
+div.categoriesContainer
+{
+width:722px;
+height:500px;
+}
+
+h1{
+text-align:center;
+}
+
+.drag
+{
+	float: left;
+	height: 50px;
+	width: 210px;
+	margin: 10px 0px 0px 23px;
+	text-align:center;
+	background-color:white;	
+	z-index:100;
+	border-radius:.5em;
+}
+#droppable{
+position:relative;
+z-index:20;
+	float:left;
+	height:290px;
+	width:250px;
+	margin: 20px 10px 10px 23px;
+	text-align:center;
+	background-color:white;
+}
+#droppable2{
+position:relative;
+z-index:20;
+	float:right;
+	height:290px;
+	width:250px;
+	margin: 20px 23px 10px 0px;
+	text-align:center;
+	background-color:white;
+}
+div.catBtn
+{
+	position:absolute;
+	right:0px;
+	top:0px;
+	height:30px;
+	width:30px;
+	color:white;
+	margin:4px;
+	border-radius:.5em;
+	font-size:1.3em;
+	background-color: #3D9499;
+}
+div.catBtn2
+{
+	position:absolute;
+
+	right:0px;
+	height:30px;
+	width:30px;
+	color:white;
+	margin:4px;
+	border-radius:.5em;
+	font-size:1.3em;
+	background-color: #3D9499;
+}
+
+#catHeader > textarea{
+	width:500px;
+	height:40px;
+	left:50%;
+	margin-left:111px;
+	border:none;
+	font-size:2em;
+	border-radius:.5em;
+	margin-top:10px;
+	color:black;
+}
+h2{
+	z-index:100;
+	position:absolute;
+	color:#555;
+	height:290px;
+	width:220px;
+	margin:10px;
+	font-size:15em;
+}
+.fitted{
+position:relative;
+top:0px;
+left:0px;
+}
+#breaker
+{
+position:relative;
+padding:0px;
+width:100%;
+height:2px;
+top:14px;
+margin-bottom:14px;
+background-color: #3D9499;
+}
+div.snapper{
+	position:relative;
+	height: 50px;
+	width: 210px;
+	left:20px;
+	top:14px;
+	margin-top:10px;
+	text-align:center;
+	background-color:#3D9499;
+	border-radius:.5em;
+}
+.catText{
+	background-color:white;
+	font-weight:bold;
+}
+img{
+	position:absolute;
+	height:102px;
+	width:154px;
+	left:50%;
+	margin-left:-77px;
+	top:160px;
+	z-index:200;
+	}
+	
